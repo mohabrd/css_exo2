@@ -43,30 +43,48 @@ h1,h3{
 
 /* début exo 01 background-color */
 .bg-color-1{
+    background-color: orangered;
 }
 .bg-color-2{
+    background-color: rgb(89, 205, 97);
 }
 /* fin exo 01 background-color */
 
 /* début exo 02 background*/
 .bg-1{
+    background: rgb(34,193,195);
+    background: linear-gradient(0deg, rgb(51, 255, 48) 0%, rgb(242, 132, 29) 100%);
+
 }
 .bg-2{
+    background: rgb(34,193,195);
+    background: radial-gradient(circle, rgba(242, 132, 29) 15%, rgba(51, 255, 48) 100%);
 }
 .bg-3{
+    background: rgb(34,193,195);
+    background: linear-gradient(90deg, rgba(51, 255, 48) 0%, rgba(242, 132, 29) 100%);
 }
 .bg-4{
+    background: rgb(34,193,195);
+    background: linear-gradient(230deg, rgba(51, 255, 48) 0%, rgb(242, 132, 29) 100%);
 }
 /* fin exo 02 background*/
 
 /* début exo 03 background-position*/
 .img-1{ 
+    background-image: url(../img/bg_image.jpg);
 }
 .img-2{
+    background-image: url(../img/bg_image.jpg);
+    background-position: 1130px;
 }
 .img-3{
+    background-image: url(../img/bg_image.jpg);
+    background-position: 300px;
 }
 .img-4{
+    background-image: url(../img/bg_image.jpg);
+    background-position: 0px;
 }
 /* fin exo 03 background-position*/
 
@@ -74,8 +92,11 @@ h1,h3{
 .img-5{
 }
 .img-6{
+    background-repeat: repeat-x;
 }
 .img-7{
+    displa
+    background-repeat: repeat-y;
 }
 /* fin exo 04 background-repeat*/
 
